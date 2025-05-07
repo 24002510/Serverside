@@ -98,7 +98,9 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 </div>
 </body>
 </html>
+```
 
+```
 views.py
 
 from django.shortcuts import render
@@ -132,9 +134,7 @@ urlpatterns = [
     path('areaofsquareprism/',views.squarearea,name="areaofsquareprism"),
     path('',views.squarearea,name="areaofsquareprism")
 ]
-
 ```
-
 ## SERVER SIDE PROCESSING:
 
 ![440253047-2371ba51-1306-4db9-8852-e94f6b437459](https://github.com/user-attachments/assets/c932d8de-1eac-47f9-940c-02ad010128f5)
